@@ -1,0 +1,2 @@
+'un fichero a eliminar' 
+
