@@ -1,8 +1,6 @@
-package m3_moises;
-
 import java.util.Scanner;
 
-public class Dias_Semana_Switch {
+public class DiaSetmana {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -32,12 +30,7 @@ public class Dias_Semana_Switch {
 		    System.out.println("Diumenge");
 		    break;
 		  default:
-			System.out.println("error");  
+			System.out.println("Error");  
 		}
-		
-		
-		
-
 	}
-
 }
