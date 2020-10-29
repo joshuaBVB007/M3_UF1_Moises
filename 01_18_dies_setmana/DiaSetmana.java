@@ -1,13 +1,11 @@
-package m3_moises;
-
 import java.util.Scanner;
 
-public class Dias_Semana {
+public class DiaSetmana {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-			int dia=Integer.parseInt(String[0]);
+			int dia=Integer.parseInt(args[0]);
 			
 			
 			if(dia==1){
@@ -26,7 +24,6 @@ public class Dias_Semana {
 				System.out.println("Diumenge");
 			}else if(dia<1 || dia>7){
 				System.out.println("Error");
-				break;
 			}	
 	}
 }
