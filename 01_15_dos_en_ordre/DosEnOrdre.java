@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 
 public class DosEnOrdre {
 
+	/*programa que ordena 2 numeros en orden*/
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
