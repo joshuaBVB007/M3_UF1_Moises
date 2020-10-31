@@ -5,6 +5,8 @@ import java.io.InputStreamReader;
 
 public class MesosAnys {
 
+	/*programa que nos dice que año es el anterior y posterior segun el mes que le brindemos*/
+
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
 		BufferedReader t=new BufferedReader(new InputStreamReader(System.in));
