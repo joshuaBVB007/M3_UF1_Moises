@@ -1,6 +1,8 @@
 import java.util.Scanner;
 public class Preso{
 
+	/*programa que valida edades de personas*/
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Scanner e=new Scanner(System.in);
