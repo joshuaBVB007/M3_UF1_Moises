@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class DiaSetmana {
 
+	/*programa que habla de los dias de la semana*/
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
