@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class ParellSenar {
 
+	/*programa que valida que un numero es par o inpar*/
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int numero=Integer.parseInt(args[0]);
