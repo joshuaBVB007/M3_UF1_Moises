@@ -1,10 +1,14 @@
+/*programa que simula las operaciones matematicas de una calculadora
+recibe 2 valores enteros mas uno de tipo string que corresponde a la operacion solicitada (*+-/) y nos devuleve su resultado.
+si es usuario intenta una division por cero le informa que no se permite la division por cero.
+si el usuario introduce una operacion indebida el programa le dira que el operador no esta disponible */
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class CalculadoraSenzilla {
 
-	/*programa que simula las operaciones de una calculadora*/
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
