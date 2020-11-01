@@ -1,8 +1,13 @@
+/*Este programa es una version distinta del anterior aunque similar en funcionamiento en este caso utilizaremos un switch.
+que nos permitirá evaluar el dato introducido y asi ejecutar un caso u otro
+ejemplo: Dia=1-----> salida=dilluns*/
+
+
 import java.util.Scanner;
 
 public class DiaSetmana {
 
-	/*programa con los dias de la semana con switch*/
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
