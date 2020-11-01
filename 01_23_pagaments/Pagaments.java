@@ -1,10 +1,9 @@
-package ifs;
-
+/*programa que pregunta al usuario el precio de producto y la cantidad que pago y le informa si le sobran o le falta dinero para completar su compra
+si no le falta ni le sobran le dira que no falta nada*/	
 import java.util.Scanner;
 
 public class Pagaments {
 
-	/*programa que brinda resultado de transactiones del usuario*/	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,10 +23,5 @@ public class Pagaments {
 			System.out.println("Falten "+resultado+"¤");
 		}
 		
-		
-		
-		
-
 	}
-
 }
