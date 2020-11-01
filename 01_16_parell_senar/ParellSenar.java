@@ -1,8 +1,11 @@
+/*programa que examina que el numero recibido es par o inpar ejecutandole una resta de todos los 2 que caben en ese numero.
+si el valor retornado es un 1 ese numero es inpar caso contrario es par*/
+
 import java.util.Scanner;
 
 public class ParellSenar {
 
-	/*programa que valida que un numero es par o inpar*/
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
