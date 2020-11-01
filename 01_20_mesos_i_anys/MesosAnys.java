@@ -1,11 +1,13 @@
+/*programa que nos dice que año es el anterior y posterior segun el mes que le brindemos
+
+ejemplo mes? 10  any?2003 --------Anterior 9/2003 i posterior 11/2003*/
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class MesosAnys {
-
-	/*programa que nos dice que año es el anterior y posterior segun el mes que le brindemos*/
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
