@@ -1,8 +1,10 @@
+/*programa que recibe un numero por teclado y nos brinda su equivalente en dias
+ej:7=domingo.......1=lunes*/
+
 import java.util.Scanner;
 
 public class DiaSetmana {
 
-	/*programa que habla de los dias de la semana*/
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
