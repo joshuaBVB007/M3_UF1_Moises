@@ -1,10 +1,10 @@
-
+/*programa que recibe tres numeros ordenados o desordenados segun el usuario 
+considere a su gusto.
+el programa ejecuta todas las posibles condiciones para que los tres numeros dados salgan ordenados de menor a mayor*/
 import java.util.Scanner;
 
 public class TresEnOrdre {
 	
-	/*programa que ordena 3 numeros de menor a mayor*/
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int mayor,medio,menor;
