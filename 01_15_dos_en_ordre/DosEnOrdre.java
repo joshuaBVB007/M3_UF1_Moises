@@ -1,3 +1,5 @@
+/*programa que recibe 2 enteros y  que ordena  esos 2 numeros 
+de menor  a mayor evaluando una serie de condiciones*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -5,7 +7,6 @@ import java.io.InputStreamReader;
 
 public class DosEnOrdre {
 
-	/*programa que ordena 2 numeros en orden*/
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		// TODO Auto-generated method stub
