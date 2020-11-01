@@ -1,8 +1,7 @@
+/*programa que recibe un nombre y una edad de una persona
+y segun esos datos valide si puede ir a prision o debe ir con cuidado*/
 import java.util.Scanner;
 public class Preso{
-
-	/*programa que valida edades de personas*/
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//Scanner e=new Scanner(System.in);
