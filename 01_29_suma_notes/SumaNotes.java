@@ -1,3 +1,9 @@
+/*este programa suma todas los valores introducidos por el usuario
+siempre y cuando no esten esos valores por debajo del cero ni por encima de 100
+es decir valores inferiores a cero no seran admitidos como tampoco superiores a
+100
+el programa terminara si se ingresan valores valores de este tipo*/
+
 public class SumaNotes{
 	public static void main(String[] args){
 	
