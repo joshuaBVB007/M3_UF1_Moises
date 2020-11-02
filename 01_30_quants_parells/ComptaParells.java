@@ -1,3 +1,8 @@
+/*programa que valida que los valores introducidos por el usuario son pares o
+inpares.
+sumara todos los numeros pares introducidos y nos informara cuantos pares hemos
+ingresado cuando el usuario introduzca un valor inferior a 0 terminando de 
+esa manera el programa*/
 public class ComptaParells{
 	public static void main(String[] args){
 	int suma_pares=0;
