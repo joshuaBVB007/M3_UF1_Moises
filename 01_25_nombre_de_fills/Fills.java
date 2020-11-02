@@ -1,4 +1,8 @@
-/*que hace el programa */
+/*que hace el programa? este programa recibe un valor que es el equivalente a la
+catidad de hijos que tiene el usuario.
+ hijos 0=Tot el que t'has estalviat en bolquers
+ 1=compte de no mimarlo massa
+ ....si la cantidad de hijos es superior a 4 te dira tu si fas pais */
 
 public class Fills{
 	public static void main(String[] args){
