@@ -1,7 +1,7 @@
 /*el funcionamiento de este programa es el siguiente:
 recibe dos valores dados por el usuario el primero indica desde donde parte y 
 el segundo en donde termina que sera el segundo valor.
-y el valor de inicio y el del final y tambien los que se encuentren en medio estos*/
+Mostrará el valor de inicio y el del final y tambien los que se encuentren en medio estos*/
 
 public class MostraInterval{
 	public static void main(String[] args){
