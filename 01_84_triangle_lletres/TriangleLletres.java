@@ -1,3 +1,16 @@
+/*Este programa recibe un nombre de persona por el teclado y lo muestra de manera escalonada siempre yendo del principio al final.
+ejemplo: Nemesio
+
+salida:
+	N
+	N,e
+	N,e,m
+	N,e,m,e
+	N,e,m,e,s
+	N,e,m,e,s,i
+	N,e,m,e,s,i,o
+*/
+
 public class TriangleLletres{
 	public static void main(String[] args){
 	
