@@ -1,3 +1,22 @@
+/*Este programa hace el funcionamiento siguiente
+el programa va demandando preguntas al usuario y el programa valida si
+la segunda letra es igual a la penultima.
+
+ejemplo:
+Entrada: Hola
+Salida: segona diferent de penúltima
+
+Entrada albla
+Salida: segona igual a penultima
+
+si la entrada es una letra solamente la salida es segona diferent de la penúltima
+ejemplo:
+
+Entrada: A
+Salida: segona diferent de penúltima
+
+*/
+
 public class SegonaIgualPenultima{
 	public static void main(String[] args){
 
