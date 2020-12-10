@@ -35,6 +35,7 @@ public class CadenaContinua{
 				}
 			}
 		}
+	  //considero que este break es el fallo
 	  break;	
 	}
 
