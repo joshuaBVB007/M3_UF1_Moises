@@ -10,34 +10,45 @@ vuelve a recorrer desde el principio.
 
 public class CadenaContinua{
 	public static void main(String[] args){
-
+	String linea_vacia="";
 	while(true){
-	System.out.println("Text?");
-	String text=Entrada.readLine();
-	char [] lista=text.toCharArray();
+		System.out.println("Text?");
+	        String linea=Entrada.readLine();
 
-		if(text.isEmpty()){
+		if(linea.isEmpty()){
 			System.out.println("error");
 			break;
-		}else{
-			System.out.println("Nombre?");
-			int numero=Integer.parseInt(Entrada.readLine());
-			int i=0;
-			int validador=0;
-			while(i<lista.length){
-				System.out.print(lista[i]);
-				i++;
-				validador++;
-				if(i>=lista.length){
-					i=0;
-				}else if(validador==numero){
-					break;
-				}
+		}else if(linea.equals(" ")){
+			System.out.println("vacia");
+			break;
+		}	
+		
+	
+		System.out.println("Nombre?");
+		int numero=Integer.parseInt(Entrada.readLine());
+
+		if(numero<=0){
+			//no muestra nada
+			break;
+		}else if(numero>0){
+			for(int i=0;i<numero;i++){
+				linea_vacia+=linea;
 			}
+			char [] lista=linea_vacia.toCharArray();
+			for(int j=0;j<numero;j++){
+				System.out.print(lista[j]);
+			}
+			break;
 		}
-	  //considero que este break es el fallo
-	  break;	
+		
+
 	}
+
+
+	
+	
+
+
 
   }
 }
