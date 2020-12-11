@@ -1,11 +1,16 @@
-/*Este programa recibe un string y un entero de parte del usuario 
-y segun el numero recorrera esas letras en el string.
+/*
+NOTA IMPORTANTE:Tengo que decir que no me siento orgulloso de este codigo ya que 
+lo hice de una manera no agradable para mi gusto. 
 
-Entrada: maria 4 salida=maria
+Este programa recibe un string y un entero de parte del usuario 
+y segun el numero recorrerá esas letras en el string.
+
+Entrada: maria 4 salida=mari
 
 pero que pasa si el numero es mayor a la cantidad de caracteres? el programa
 vuelve a recorrer desde el principio.
 
+Entrada: Hola 8  salida=HolaHola
  */
 
 public class CadenaContinua{
