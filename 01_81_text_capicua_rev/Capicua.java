@@ -1,3 +1,8 @@
+/*El funcionamiento de este programa es recibir una cadena de texto y validar si es caoicua o no.
+actuando de la siguiente manera:el usuario introduce la cadena nosotros la filtramos en un for quitando espacios,caracteres especiales y nos quedamos 
+solo con letras y digitos.
+luego iteramos al reves y creamos una variable que vaya de 0,por tanto se iran comparando las del final con las primeras y asi hasta terminar el buble
+*/
 public class Capicua{
 	public static void main(String[] args){
 
