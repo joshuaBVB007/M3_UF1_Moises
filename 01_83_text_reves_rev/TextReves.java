@@ -1,3 +1,8 @@
+/*El funcionamiento de este ejercicio es el siguiente:
+ingresamos una cadena de texto copiamos su estructura 
+y nos la muestra invertida manteniendo los espacios y llaves en sus lugares 
+originales solo invertimos el contenido.
+*/
 public class TextReves {
 	public static void main(String[] args) {
 		System.out.println("Text?");
