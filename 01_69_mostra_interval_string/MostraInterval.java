@@ -1,84 +1,84 @@
+/*Este programa tiene como objetivo mostrar una cadena en base a los parametros que le pasaremos.
+el usuario ingresará 2 datos de tipo entero que corresponden a el punto inicial y el punto final y nos mostrará los caracteres que estan en ese intervalo.
+
+ejemplo entrada Hola  1 3
+	salida  ola
+ 
+ojo:ola ocupará cada caracter una linea.
+*/
 public class MostraInterval{
 	public static void main(String[] args){
 
 	System.out.println("text?");
 	String paraula=Entrada.readLine();
+	char[] lista=paraula.toCharArray();
+	int freno=0;
+	int inici2=0;
+	int final_2=0;
 
-	int inici;
-	int final_;
-	int aux=0;
-	int aux_inici=0;
-	char[] lista=paraula.toCharArray();	
-
+	
 	try{
-
 	System.out.println("inici?");
-	inici=Integer.parseInt(Entrada.readLine());
-	
+	int inici=Integer.parseInt(Entrada.readLine()); 
 
-	System.out.println("final?");
-	final_=Integer.parseInt(Entrada.readLine());
 	
-	aux=final_;
-	aux_inici=inici;	
-		if(inici<final_){
-			for(int i=inici;i<lista.length;i++){
-				System.out.println(lista[i]);
-				if(i==final_){
-					break;
-				}
-			}
-		}else if(inici>final_){
-			for(int i=inici;i>0;i--){
-				System.out.println(lista[i]);
-				if(i==final_){
-					break;
-				}
-			}
-		}else if(final_>lista.length){
+	System.out.println("final?");
+	int final_=Integer.parseInt(Entrada.readLine());
+
+	freno=final_;
+	inici2=inici;
+	final_2=final_;
+	//si son superiores a cero no entran en exception
+	if(inici<final_){
 		for(int i=inici;i<lista.length;i++){
-			System.out.println(lista[i]);
-		   }
-		}else if(paraula.equals("hola") && aux>0 && final_==0){
-			for(int i=lista.length-1;i>0;i--){
-				System.out.println(lista[i]);
-			}
-		}
-	}catch(Exception e){
-		if(paraula.equals("Java rocks!")){
-			boolean c;
-			for(int i=0;i<lista.length;i++){
-				if(c=Character.isLetter(lista[i])==true){
-					System.out.println(lista[i]);
-				}else if(lista[i]==' '){
-					System.out.println(lista[i]);
-				}
-			}
-		}else if(paraula.equals("hola") && aux==0){
-			for(int i=0;i<lista.length;i++){
-				System.out.println(lista[i]);
+		System.out.println(lista[i]);
+			if(i==freno){
 				break;
 			}
-		}else if(paraula.equals("hola") && aux_inici<0 && aux<0){
-			//System.out.println("Felicidades");
-			for(int i=lista.length-1;i>0;i--){
-			}			
-		}else if(paraula.equals("hola") && aux_inici<0){
-			for(int i=0;i<lista.length-1;i++){
-				System.out.println(lista[i]);
-			}
-		}else if(!paraula.equals("Java rocks!")){
-			int contador=0;
-			for(int i=lista.length-1;i>0;i--){
-				System.out.println(lista[i]);
-				contador++;	
-				if(contador==aux){
-					break;
-				}
+		}
+	}else if(inici>final_){
+		for(int i=inici;i>=final_;i--){
+			System.out.println(lista[i]);
+			if(freno==inici){
+				break;
 			}
 		}
 	}
 
+
+	
+
+	}catch(Exception e){
+		//Aqui se evaluan los que entran en exception
+		if(inici2<0 && final_2<0){
+			
+		}else if(inici2<0 && final_2==0){
+			System.out.println(lista[0]);
+		}else if(inici2>lista.length && final_2>0){
+			for(int t=lista.length-1;t>=final_2;t--){
+				System.out.println(lista[t]);
+			}
+		}else if(inici2<0){
+			for(int t=0;t<lista.length-1;t++){
+				System.out.println(lista[t]);
+			}
+		}else if(inici2>lista.length){
+			int contador=0;
+			for(int t=lista.length-1;t>0;t--){
+				System.out.println(lista[t]);
+				contador++;
+				if(contador==final_2){
+					break;
+				}
+			}
+		}
+
+	}
+
+
+
+	
+	
 
 
 
