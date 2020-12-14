@@ -1,3 +1,16 @@
+/*Este programa dibuja un triangulo de numeros en funcion del numero
+introducido por el usuario
+ejemplo entrada 5
+
+salida 
+1,2,3,4,5
+1,2,3,4
+1,2,3
+1,2
+1
+
+*/
+
 public class TriangleInvertit{
 	public static void main(String[] args){
 
