@@ -1,3 +1,9 @@
+/*
+Okay,explicar el funcionamiento de este ejercicio es muy dificil ya que es un ejercicio muy largo,entonces daremos una conclusion breve.
+nosotros introducimos una cadena de texto que consiste en 2 letras iniciales,3 numeros y 2 letras finales ese es el patron correcto en cambio, si introducimos una cadena corta,vacia o mas lar que el patron correcto pues nos informará que es una matricula no valida.
+
+*/
+
 public class MatriculaValida{
 	public static void main(String[] args){
 
