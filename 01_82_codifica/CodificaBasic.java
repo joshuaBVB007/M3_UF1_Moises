@@ -1,3 +1,20 @@
+/*El funcionamiento de este ejercicios es bastante sencillo,recibimos una
+cadena de texto de parte del usuario y sustituimos los caracteres por el siguiente,que lio,no? vamos a verlo con ejemplos:
+
+entrada abbz
+salida bcca
+
+que pasa? sustituimos cada letra por la siguiente en el alfabeto.
+la letra que le sigue a "a" en el alfabeto cual es? b,
+la letra que le sigue a "b" en el alfabeto cual es? c, y asi continuamos hasta el
+final si llegamos a "Z" se sustituirá por a.
+
+
+Nota:las mayusculas no son sustituidas.
+
+*/
+
+
 public class CodificaBasic{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
